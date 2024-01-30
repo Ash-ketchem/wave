@@ -10,6 +10,7 @@ const page = async () => {
   if (!stream) {
     throw new Error("Stream not found");
   }
+
   return (
     <div className="p-6 w-full">
       <div className="mb-4">

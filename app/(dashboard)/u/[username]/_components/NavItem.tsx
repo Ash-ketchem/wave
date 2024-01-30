@@ -28,7 +28,7 @@ const NavItem = ({ label, icon: Icon, href, isActive }: NavItemProps) => {
       )}
     >
       <Link href={href}>
-        <div className="flex items-center gap-x-4">
+        <div className="flex items-center">
           <Icon className={cn("w-4 h-4", collapsed ? "mr-0" : "mr-2")} />
           {!collapsed && <span>{label}</span>}
         </div>

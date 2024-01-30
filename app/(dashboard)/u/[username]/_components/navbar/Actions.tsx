@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Actions = async () => {
   return (
-    <div className="flex items-center justify-end gap-x-2">
+    <div className="flex items-center justify-end gap-x-2 w-full">
       <Button
         size="sm"
         variant="ghost"
@@ -17,7 +17,7 @@ const Actions = async () => {
           Exit
         </Link>
       </Button>
-      <UserButton />
+      <UserButton afterSignOutUrl="/" />
     </div>
   );
 };

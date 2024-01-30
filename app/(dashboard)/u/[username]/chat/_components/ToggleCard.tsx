@@ -20,6 +20,7 @@ const ToggleCard = ({ field, value = false, label }: ToggleCardProps) => {
   const onChange = () => {
     startTransition(() => {
       updateStream({
+        // computed property names
         [field]: !value,
       })
         .then(() => toast.success("Chat settings updated"))

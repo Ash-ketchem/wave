@@ -20,9 +20,9 @@ export const Logo = () => {
             className="object-cover rounded-full p-1"
           />
         </div>
-        <div className={cn(font.className, "hidden lg:block")}>
+        <div className={cn(font.className, "hidden lg:block  min-w-36")}>
           <p className="font-semibold text-lg">Wave</p>
-          <p className="font-semibold text-xs text-muted-foreground">
+          <p className="font-semibold text-xs text-muted-foreground w-fit">
             Creater Dashborad
           </p>
         </div>

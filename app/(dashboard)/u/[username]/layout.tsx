@@ -21,13 +21,11 @@ const layout = async ({ children, params }: layoutProps) => {
 
   return (
     <>
-      <Container>
-        <NavBar />
-        <div className="flex h-full pt-20">
-          <SideBar />
-          {children}
-        </div>
-      </Container>
+      <NavBar />
+      <div className="flex h-full pt-20">
+        <SideBar />
+        <Container>{children}</Container>
+      </div>
       ;
     </>
   );

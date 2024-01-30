@@ -2,7 +2,7 @@ import Navigation from "../Navigation";
 import Toggle from "./Toggle";
 import Wrapper from "./Wrapper";
 
-const inedx = () => {
+const Index = () => {
   return (
     <Wrapper>
       <Toggle />
@@ -11,4 +11,4 @@ const inedx = () => {
   );
 };
 
-export default inedx;
+export default Index;

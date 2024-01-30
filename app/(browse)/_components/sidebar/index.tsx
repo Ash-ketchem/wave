@@ -4,6 +4,7 @@ import Toggle, { ToggleSkeleton } from "./Toggle";
 import Wrapper from "./Wrapper";
 import { getFollowedUsers } from "@/lib/follow-service";
 import Following, { FollowingSkeleton } from "./Following";
+import { User } from "@prisma/client";
 
 const SideBar = async () => {
   const recommendedUsers = await getRecommended();
